@@ -26,8 +26,6 @@ pipeline {
                 // Example: sh 'mvn deploy'
             }
         }
-    }
-    
     post {
         success {
             // This block will be executed if the pipeline runs successfully
